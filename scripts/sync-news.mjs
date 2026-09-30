@@ -25,9 +25,10 @@ const normalize=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const cleanTitle=s=>String(s||"").replace(/^NEWS:\s*/i,"").replace(/\s+/g," ").trim();
 const shortSlug=title=>{
   const raw=normalize(title).split(" ").filter(Boolean);
+  if(raw[0]==="trux" && raw[1]==="code") return "trux-code";
   const stop=new Set(["within","with","the","a","an","and","of","for","in","on","to","from","now"]);
   const meaningful=raw.filter(x=>!stop.has(x));
-  const base=meaningful.slice(0,4).join("-").slice(0,48).replace(/-$/,"");
+  const base=meaningful.slice(0,3).join("-").slice(0,42).replace(/-$/,"");
   return base||"news";
 };
 const plain=s=>String(s||"").replace(/\r/g,"").trim();
