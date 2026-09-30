@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /publisher.html
+Sitemap: https://technology.trux.website/sitemap.xml
