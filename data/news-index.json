@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "sourceIssue": 3,
+    "headline": "Seperation of TruX-Code from TruX-Omni for better workspace capabilities",
+    "description": "We are separating trux code from trux omni as its getting harder for us to fix smaller bugs and ui updates without breaking logic as trux code was mixed with trux omni",
+    "datePublished": "2026-11-03T11:07:41Z",
+    "dateModified": "2026-11-03T11:07:41Z",
+    "category": "Update",
+    "readMinutes": 1,
+    "image": "",
+    "url": "/news/seperation-trux-code/"
+  }
+]
