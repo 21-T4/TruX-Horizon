@@ -1,13 +1,13 @@
 [
   {
-    "sourceIssue": 1,
-    "headline": "TruX-Code Launch within ChatTruX-AI with 150k token limits !!!!! Direct Github integration provided.",
-    "description": "Now users can use TruX-Code within ChatTruX-AI / TruX-AI.",
-    "datePublished": "2026-09-30T15:01:14Z",
-    "dateModified": "2026-09-30T15:22:01Z",
+    "sourceIssue": 2,
+    "headline": "Seperation of TruX-Code from TruX-Omni for better workspace capabilities",
+    "description": "We are separating trux code from trux omni as its getting harder for us to fix smaller bugs and ui updates without breaking logic as trux code was mixed with trux omni",
+    "datePublished": "2026-10-25T09:14:19Z",
+    "dateModified": "2026-10-25T09:15:43Z",
     "category": "Live Update",
     "readMinutes": 1,
     "image": "",
-    "url": "/news/trux-code/"
+    "url": "/news/seperation-trux-code/"
   }
 ]
